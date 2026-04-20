@@ -668,7 +668,7 @@ elif "Performance" in nav:
         color = '#27ae60' if val >= 0.85 else '#f39c12' if val >= 0.75 else '#e74c3c'
         return f'background-color: {color}22; color: {color}; font-weight: bold'
     
-    styled = perf_df.style.applymap(color_accuracy, subset=['Accuracy', 'AUC-ROC', 'CV AUC (5-fold)'])
+    styled = perf_df.style.map(color_accuracy, subset=['Accuracy'])
     st.dataframe(styled, use_container_width=True, hide_index=True)
 
     st.markdown('<div class="section-title">📊 Performance Visualisation</div>', unsafe_allow_html=True)
