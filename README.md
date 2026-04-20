@@ -1,8 +1,5 @@
 # 🏥 Smart Disease Risk Prediction System
-
-> **BTech CSE (Data Science) — 3rd Year Major Project**  
-> **Author:** Akrit Pathania
-
+The Smart Disease Risk Prediction System is a machine learning-based application that predicts diseases like diabetes, heart disease, obesity, and mental health risk using user health data. It uses models like Random Forest and Gradient Boosting with a Streamlit interface to provide quick and accurate health risk predictions.
 ---
 
 ## 📌 Overview
@@ -117,6 +114,8 @@ smart_disease_prediction/
 
 This system is built purely for academic / educational purposes. All predictions are probabilistic ML outputs and are **not a substitute for professional medical advice**.
 
+---
+> **BY:** Akrit Pathania
 ---
 
 ## 📄 License
